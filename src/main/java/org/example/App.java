@@ -17,12 +17,12 @@ public class App
         final float convertRatio = 0.09290304f;
 
         //read length
-        System.out.println("What is the length of the room in feet?");
+        System.out.print("What is the length of the room in feet? ");
         String lengthString = sc.next();
         float length = Float.parseFloat(lengthString);
 
         //read width
-        System.out.println("What is the width of the room in feet?");
+        System.out.print("What is the width of the room in feet? ");
         String widthString = sc.next();
         float width = Float.parseFloat(widthString);
 
